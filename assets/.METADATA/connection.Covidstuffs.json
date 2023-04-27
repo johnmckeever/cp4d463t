@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Covid stuffs",
+    "origin_country": "us",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:14F8:8930|443|",
+    "asset_category": "USER",
+    "created_at": "2023-04-27T06:51:12Z",
+    "created": 1682578272404,
+    "asset_id": "connection.Covidstuffs",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "4210c294-8b0f-46b4-bcdc-1c6ada2b7e6b",
+      "context": "source",
+      "properties": {
+        "url": "https://github.com/nytimes/covid-19-data/raw/master/colleges/colleges.csv"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}
